@@ -1,0 +1,19 @@
+# 1. 의존성 라이브러리 (가장 중요: 용량이 커서 절대 올리면 안 됨)
+node_modules/
+**/node_modules/
+
+# 2. 환경 변수 파일 (DB 접속 비밀번호가 들어있음 - 보안 필수)
+.env
+.env.local
+
+# 3. 빌드 결과물 (배포할 때 생성되는 임시 파일들)
+dist/
+build/
+.vercel
+
+# 4. 운영체제 및 에디터 설정 파일
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
