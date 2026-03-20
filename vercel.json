@@ -6,8 +6,12 @@
       "destination": "/backend/index.js"
     },
     {
+      "source": "/static/(.*)",
+      "destination": "/frontend/public/$1"
+    },
+    {
       "source": "/(.*)",
-      "destination": "/frontend/src/$1"
+      "destination": "/frontend/public/index.html"
     }
   ]
 }
