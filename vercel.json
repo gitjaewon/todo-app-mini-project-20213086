@@ -3,15 +3,11 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "/backend/index.js"
-    },
-    {
-      "source": "/static/(.*)",
-      "destination": "/frontend/public/$1"
+      "destination": "https://your-backend-api.vercel.app/api/$1"
     },
     {
       "source": "/(.*)",
-      "destination": "/frontend/public/index.html"
+      "destination": "/index.html"
     }
   ]
 }
