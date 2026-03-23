@@ -1,10 +1,9 @@
 const mongoose = require('mongoose');
 
-// 자바의 @Entity 클래스와 필드 정의라고 보시면 됩니다.
 const TodoSchema = new mongoose.Schema({
   title: {
     type: String,
-    required: true, // @Column(nullable = false)
+    required: true,
   },
   content: {
     type: String,
