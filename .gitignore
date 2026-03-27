@@ -16,4 +16,9 @@ build/
 Thumbs.db
 .vscode/
 .idea/
-*.logc
+*.log
+.env*.local
+
+# 5. 로컬 개발/에이전트 작업 파일
+.sisyphus/
+*.http

@@ -13,8 +13,7 @@ router.get('/', async (req, res) => {
 
 router.post('/', async (req, res) => {
     const todo = new Todo({
-        title: req.body.title,
-        content: req.body.content
+        title: req.body.title
     });
 
     try {
